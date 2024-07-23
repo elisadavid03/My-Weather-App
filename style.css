@@ -1,0 +1,40 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 80vh;
+    width: 80%;
+    background-color: rgb(184, 237, 255);
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 20px;
+
+}
+
+.container label {
+    display: none;
+}
+
+.container input {
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    padding: 3px;
+    line-height: 1;
+}
+
+.container button {
+    border-radius: 5px;
+    border: none;
+    background-color: lightcyan ;
+    font-size: 12px;
+}
+
