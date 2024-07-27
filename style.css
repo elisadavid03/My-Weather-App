@@ -1,22 +1,20 @@
 body {
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    height: 80vh;
-    width: 80%;
+    height: 100vh;
+    width: 100%;
     background-color: rgb(184, 237, 255);
 }
 
 .container {
     display: flex;
-    align-content: center;
     border-radius: 10px;
     overflow: hidden;
     color: black;
     gap: 20px;
-    padding: 20px;
     padding-top: 20px;
-
+    font-size: 12px;
 }
 
 .container label {
@@ -28,7 +26,7 @@ body {
     border: none;
     font-size: 12px;
     padding: 3px;
-    line-height: 1;
+    
 }
 
 .container button {
@@ -38,3 +36,16 @@ body {
     font-size: 12px;
 }
 
+#weather-container {
+    display: flex;
+    font-size: 12px;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+#forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-size: 12px;
+}
